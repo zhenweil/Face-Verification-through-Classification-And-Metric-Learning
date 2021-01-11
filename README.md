@@ -12,5 +12,6 @@ L = max(d(anchor, positive) - d(anchor, negative) + margin, 0)
 Aftering fine-tuning for 2 epochs, the AUC score was raised from 90% to 94%.
 ## Inference
 <div align="center">
-  <img src="Attention/attention.png" width="200"/>
+  <img src="result/positive_1" width="200"/>
+  <img src="result/positive_2" width="200"/>
 </div>
