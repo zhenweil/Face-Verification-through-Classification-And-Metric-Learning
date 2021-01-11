@@ -9,5 +9,6 @@ The model was then fine-tuned through metric learning. During metric learning, t
 ```
 L = max(d(anchor, positive) - d(anchor, negative) + margin, 0)
 ```
+Aftering fine-tuning for 2 epochs, the AUC score was raised from 90% to 94%.
 
 
