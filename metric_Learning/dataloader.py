@@ -17,6 +17,7 @@ class train_dataset(Dataset):
         self.train_pairs = []
         num_class = len(imgs)
         for i in range(num_class):
+            num_img = self.images_per_person
             for j in range(self.images_per_person):
                 anchor = imgs[i][j]
                 positive_idx = random.randint(j+1,j+num_img-1)%num_img
