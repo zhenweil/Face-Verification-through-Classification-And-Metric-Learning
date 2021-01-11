@@ -20,3 +20,12 @@ Aftering fine-tuning for 2 epochs, the AUC score was raised from 90% to 94%.
 <div align="center">
   similarity = 0.76
 </div>
+
+<div align="center">
+  <img src="result/negative_1.jpg" width="100"/>
+  <img src="result/negative_2.jpg" width="100"/>
+</div>
+
+<div align="center">
+  similarity = 0.16
+</div>
