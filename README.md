@@ -4,6 +4,6 @@ This project uses Resnet18 to perform face verification. Resnet18 learns to extr
 ## Dataset
 The dataset contains images for 4000 different person. Each person has 20-100 sample images.
 ## Training
-The model was pretrained through N-way classification. After 10 epoch, it was able to reach 66% classification and 90% AUC score.
+The model was pretrained through N-way classification. After 10 epoch, it was able to reach 66% classification and 90% AUC score. It was then fine-tuned through metric learning. 
 
 
