@@ -23,8 +23,8 @@ The dataset contains images for 4000 different person. Each person has 20-100 sa
   - train_test.py
 - result
 - verification_data
-- verification_pairs_test.txt
-- verification_pairs_val.txt
+verification_pairs_test.txt
+verification_pairs_val.txt
 
 ## Training
 The model was pretrained through N-way classification. After 10 epoch, it was able to reach 66% classification accuracy and 90% AUC score. 
