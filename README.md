@@ -11,8 +11,12 @@ L = max(d(anchor, positive) - d(anchor, negative) + margin, 0)
 ```
 Aftering fine-tuning for 2 epochs, the AUC score was raised from 90% to 94%.
 ## Inference
+
 <div align="center">
   <img src="result/positive_1.jpg" width="100"/>
   <img src="result/positive_2.jpg" width="100"/>
-  similarity = 0.764
+</div>
+
+<div align="center">
+  similarity = 0.76
 </div>
