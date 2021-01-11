@@ -23,6 +23,7 @@ The dataset contains images for 4000 different person. Each person has 20-100 sa
   - train_test.py
 - result
 - verification_data
+
 verification_pairs_test.txt
 verification_pairs_val.txt
 
